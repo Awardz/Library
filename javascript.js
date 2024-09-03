@@ -29,6 +29,10 @@ const button = document.querySelector(".submit");
 button.addEventListener("click", () =>
 {
     addBookToLibrary();
+    title.value = ""
+    author.value = ""
+    pages.value = ""
+    read.value = ""
     
 })
 
